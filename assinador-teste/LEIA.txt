@@ -1,0 +1,3 @@
+Certificado de TESTE para revisar o app "Assinador PDF: Certificado A1".
+Emitido por uma autoridade certificadora ficticia ("AC Intermediaria Teste Assinador"), sem valor legal.
+Titular ficticio: FULANO DE TAL TESTE (CPF de exemplo 123.456.789-09). Senha: teste123
