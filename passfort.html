@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PassFort — Política de Privacidade / Privacy Policy</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#f7f8fc;color:#1a1a2e;line-height:1.7}
+header{background:linear-gradient(135deg,#1E40AF,#0E7490);color:#fff;padding:44px 20px 36px;text-align:center}
+header h1{font-size:1.9rem;font-weight:700;letter-spacing:-.5px}
+header p{margin-top:6px;font-size:.95rem;opacity:.9}
+nav{display:flex;gap:8px;justify-content:center;margin-top:18px;flex-wrap:wrap}
+nav a{color:#fff;border:1px solid rgba(255,255,255,.6);border-radius:999px;padding:4px 14px;font-size:.9rem;text-decoration:none}
+main{max-width:820px;margin:32px auto;padding:0 16px 48px}
+section.card{background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,.07);padding:28px 28px;margin-bottom:28px}
+section.card>h2.lang{font-size:1.3rem;color:#0E7490;margin-bottom:4px}
+h3{font-size:1.02rem;font-weight:700;color:#0E7490;margin:22px 0 8px}
+p{margin-bottom:10px;font-size:.97rem}
+ul{padding-left:20px;margin-bottom:10px}
+li{margin-bottom:6px;font-size:.97rem}
+.updated{font-size:.82rem;color:#777;margin-bottom:12px}
+a{color:#0E7490}
+footer{text-align:center;padding:20px;font-size:.82rem;color:#999}
+@media (max-width:520px){section.card{padding:22px 18px}}
+</style>
+</head>
+<body>
+<header>
+  <h1>PassFort</h1>
+  <p>Política de Privacidade · Privacy Policy · Política de Privacidad</p>
+  <nav><a href="#pt">Português</a><a href="#en">English</a><a href="#es">Español</a></nav>
+</header>
+<main>
+<section class="card" id="pt" lang="pt-BR">
+  <h2 class="lang">Política de Privacidade — PassFort</h2>
+  <p class="updated">Última atualização: 19 de outubro de 2026 · Desenvolvedor: Joseph Santiago</p>
+  <p>Esta política explica como o aplicativo <b>PassFort</b> (Android) trata informações. Resumo: o app funciona sem cadastro e sem login; o que você registra fica guardado só no seu aparelho. Nós não temos servidor que receba esses dados.</p>
+  <h3>1. O que fica no seu aparelho</h3><p>O app guarda localmente, em banco de dados no próprio aparelho: o cofre cifrado com os itens que você cadastrar (logins com usuário, senha, site e anotações; cartões com nome impresso, número, validade e código; notas seguras), a chave do cofre embrulhada pela sua senha mestra, uma cópia opcional dessa chave protegida pela biometria do aparelho e preferências (tema, bloqueio automático e contagem de tentativas erradas). Esses dados não são enviados a nós nem a terceiros. Você pode apagá-los a qualquer momento pela opção de apagar todos os dados, na tela de Ajustes do app, ou desinstalando o app.</p>
+  <h3>2. Anúncios (Google AdMob)</h3><p>A versão gratuita exibe anúncios do Google AdMob. Para mostrar e medir anúncios e evitar fraude, o SDK do Google pode coletar o ID de publicidade do aparelho, o endereço IP (usado para estimar a localização aproximada), interações com os anúncios e dados de diagnóstico e desempenho, e compartilhá-los com o Google. Nenhum dado que você registra no app é enviado aos anunciantes. Na União Europeia, no Reino Unido e onde a lei exigir, o app pede seu consentimento antes de mostrar anúncios, e você pode mudar a escolha na opção de privacidade dos anúncios, na tela de Ajustes. Você também pode redefinir ou excluir o ID de publicidade nas configurações do Android. Saiba mais em <a href="https://policies.google.com/technologies/ads">Como o Google usa dados em anúncios</a>.</p>
+  <h3>3. Compras (Premium)</h3><p>O Premium é vendido pelo Google Play. O pagamento é processado pelo Google; nós não recebemos dados do seu cartão. O app consulta o Google Play apenas para saber se a sua conta tem o Premium. Veja a <a href="https://policies.google.com/privacy">Política de Privacidade do Google</a>.</p>
+  <h3>4. Detalhes deste app</h3><ul><li><b>Criptografia:</b> cada item é cifrado no aparelho com AES-256-GCM, usando uma chave aleatória que só pode ser aberta com a sua senha mestra (derivada com Argon2id). A senha mestra não é gravada em lugar nenhum e não é enviada a ninguém. Nós não temos acesso ao seu cofre e não conseguimos recuperá-lo se você esquecer a senha mestra.</li><li><b>Nada sai do aparelho:</b> o cofre não é enviado a nós, a anunciantes nem a terceiros. O app não tem conta, login nem servidor, e o backup do Android na nuvem e a transferência automática para outro aparelho estão desligados para o PassFort.</li><li><b>Biometria:</b> é opcional. A digital ou o rosto são conferidos pelo próprio Android; o app nunca recebe nem guarda dados biométricos, só uma cópia cifrada da chave do cofre que o Android libera depois da confirmação.</li><li><b>Backup:</b> o arquivo de backup é cifrado com a sua senha mestra e só sai do aparelho quando você escolhe onde salvá-lo. Ao importar, o app lê apenas o arquivo que você selecionar.</li><li><b>Área de transferência:</b> o que você copia do cofre é marcado como conteúdo sensível e limpo depois de 30 segundos.</li><li><b>Anúncios:</b> os anúncios nunca aparecem na tela de desbloqueio nem na tela de um item aberto, e o SDK de anúncios não tem acesso ao conteúdo do cofre.</li></ul>
+  <h3>5. Permissões</h3><p>Internet (anúncios e compras no Google Play; o cofre nunca é enviado) e biometria (opcional, para desbloquear com a digital ou o rosto). O backup usa o seletor de arquivos do sistema, sem permissão de acesso ao armazenamento. O PassFort não usa localização, câmera, microfone, contatos nem serviço de preenchimento automático.</p>
+  <h3>6. Crianças</h3><p>O app não é direcionado a menores de 13 anos e não coleta intencionalmente dados de crianças.</p>
+  <h3>7. Seus direitos</h3><p>Como os dados que você registra ficam só no seu aparelho, você tem controle total sobre eles (ver, corrigir, exportar e apagar dentro do app). Para dúvidas sobre direitos previstos na LGPD (Lei nº 13.709/2018), no GDPR ou em outras leis, ou sobre os dados de anúncios, escreva para o e-mail abaixo.</p>
+  <h3>8. Alterações</h3><p>Se esta política mudar, a nova versão será publicada nesta página com a data de atualização.</p>
+  <h3>9. Contato</h3><p>E-mail: <a href="mailto:josephsantiago250@gmail.com">josephsantiago250@gmail.com</a></p>
+</section>
+<section class="card" id="en" lang="en">
+  <h2 class="lang">Privacy Policy — PassFort</h2>
+  <p class="updated">Last updated: October 19, 2026 · Developer: Joseph Santiago</p>
+  <p>This policy explains how the <b>PassFort</b> app (Android) handles information. In short: the app works without sign-up or login, and what you record is stored only on your device. We have no server that receives this data.</p>
+  <h3>1. What stays on your device</h3><p>The app stores locally, in a database on your device: the encrypted vault with the items you add (logins with user name, password, website and notes; cards with name on card, number, expiry and code; secure notes), the vault key wrapped by your master password, an optional copy of that key protected by the device's biometrics, and preferences (theme, auto-lock and the count of wrong attempts). This data is not sent to us or to third parties. You can delete it anytime with the delete-all-data option on the app's Settings screen, or by uninstalling the app.</p>
+  <h3>2. Ads (Google AdMob)</h3><p>The free version shows ads from Google AdMob. To serve and measure ads and prevent fraud, Google's SDK may collect the device advertising ID, IP address (used to estimate approximate location), ad interactions and diagnostics/performance data, and share them with Google. Nothing you record in the app is sent to advertisers. In the EU, the UK and where the law requires it, the app asks for your consent before showing ads, and you can change your choice with the ad privacy option on the Settings screen. You can also reset or delete your advertising ID in Android settings. Learn more at <a href="https://policies.google.com/technologies/ads">How Google uses information from sites or apps that use its services</a>.</p>
+  <h3>3. Purchases (Premium)</h3><p>Premium is sold through Google Play. Payment is processed by Google; we never receive your card details. The app only asks Google Play whether your account owns Premium. See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
+  <h3>4. About this app</h3><ul><li><b>Encryption:</b> every item is encrypted on the device with AES-256-GCM, under a random key that can only be opened with your master password (derived with Argon2id). The master password is not stored anywhere and is not sent to anyone. We have no access to your vault and cannot recover it if you forget the master password.</li><li><b>Nothing leaves the device:</b> the vault is not sent to us, to advertisers or to anyone else. The app has no account, no login and no server, and Android cloud backup and automatic transfer to another device are turned off for PassFort.</li><li><b>Biometrics:</b> optional. Your fingerprint or face is checked by Android itself; the app never receives or stores biometric data, only an encrypted copy of the vault key that Android releases after the check.</li><li><b>Backup:</b> the backup file is encrypted with your master password and only leaves the device when you choose where to save it. When importing, the app only reads the file you pick.</li><li><b>Clipboard:</b> what you copy from the vault is marked as sensitive and cleared after 30 seconds.</li><li><b>Ads:</b> ads never appear on the unlock screen or on an open item, and the ads SDK has no access to the vault's content.</li></ul>
+  <h3>5. Permissions</h3><p>Internet (ads and Google Play purchases; the vault is never sent) and biometrics (optional, to unlock with your fingerprint or face). Backups use the system file picker, without storage permission. PassFort does not use location, camera, microphone, contacts or an autofill service.</p>
+  <h3>6. Children</h3><p>The app is not directed to children under 13 and does not knowingly collect children's data.</p>
+  <h3>7. Your rights</h3><p>Because the data you record stays on your device, you have full control over it (view, edit, export and delete inside the app). For questions about your rights under the GDPR, CCPA, LGPD or other laws, or about ad data, write to the e-mail below.</p>
+  <h3>8. Changes</h3><p>If this policy changes, the new version will be published on this page with its update date.</p>
+  <h3>9. Contact</h3><p>E-mail: <a href="mailto:josephsantiago250@gmail.com">josephsantiago250@gmail.com</a></p>
+</section>
+<section class="card" id="es" lang="es">
+  <h2 class="lang">Política de Privacidad — PassFort</h2>
+  <p class="updated">Última actualización: 19 de octubre de 2026 · Desarrollador: Joseph Santiago</p>
+  <p>Esta política explica cómo la app <b>PassFort</b> (Android) trata la información. En resumen: la app funciona sin registro ni inicio de sesión, y lo que registras se guarda solo en tu dispositivo. No tenemos ningún servidor que reciba estos datos.</p>
+  <h3>1. Lo que queda en tu dispositivo</h3><p>La app guarda localmente, en una base de datos en tu dispositivo: la bóveda cifrada con los elementos que agregues (inicios de sesión con usuario, contraseña, sitio y notas; tarjetas con nombre impreso, número, vencimiento y código; notas seguras), la clave de la bóveda envuelta por tu contraseña maestra, una copia opcional de esa clave protegida por la biometría del dispositivo y preferencias (tema, bloqueo automático y conteo de intentos fallidos). Estos datos no se envían a nosotros ni a terceros. Puedes borrarlos cuando quieras con la opción de borrar todos los datos, en la pantalla de Ajustes de la app, o desinstalando la app.</p>
+  <h3>2. Anuncios (Google AdMob)</h3><p>La versión gratuita muestra anuncios de Google AdMob. Para mostrar y medir anuncios y prevenir fraudes, el SDK de Google puede recopilar el ID de publicidad del dispositivo, la dirección IP (usada para estimar la ubicación aproximada), las interacciones con los anuncios y datos de diagnóstico y rendimiento, y compartirlos con Google. Nada de lo que registras en la app se envía a los anunciantes. En la Unión Europea, el Reino Unido y donde la ley lo exija, la app pide tu consentimiento antes de mostrar anuncios, y puedes cambiar tu elección con la opción de privacidad de los anuncios, en la pantalla de Ajustes. También puedes restablecer o eliminar tu ID de publicidad en los ajustes de Android. Más información en <a href="https://policies.google.com/technologies/ads">Cómo usa Google los datos en la publicidad</a>.</p>
+  <h3>3. Compras (Premium)</h3><p>Premium se vende a través de Google Play. Google procesa el pago; nunca recibimos los datos de tu tarjeta. La app solo consulta a Google Play si tu cuenta tiene Premium. Consulta la <a href="https://policies.google.com/privacy">Política de Privacidad de Google</a>.</p>
+  <h3>4. Detalles de esta app</h3><ul><li><b>Cifrado:</b> cada elemento se cifra en el dispositivo con AES-256-GCM, con una clave aleatoria que solo se puede abrir con tu contraseña maestra (derivada con Argon2id). La contraseña maestra no se guarda en ningún lugar ni se envía a nadie. No tenemos acceso a tu bóveda y no podemos recuperarla si olvidas la contraseña maestra.</li><li><b>Nada sale del dispositivo:</b> la bóveda no se envía a nosotros, a anunciantes ni a terceros. La app no tiene cuenta, inicio de sesión ni servidor, y la copia en la nube de Android y la transferencia automática a otro dispositivo están desactivadas para PassFort.</li><li><b>Biometría:</b> es opcional. Tu huella o rostro los verifica el propio Android; la app nunca recibe ni guarda datos biométricos, solo una copia cifrada de la clave de la bóveda que Android libera después de la verificación.</li><li><b>Copia de seguridad:</b> el archivo de copia se cifra con tu contraseña maestra y solo sale del dispositivo cuando eliges dónde guardarlo. Al importar, la app solo lee el archivo que elijas.</li><li><b>Portapapeles:</b> lo que copias de la bóveda se marca como contenido sensible y se borra después de 30 segundos.</li><li><b>Anuncios:</b> los anuncios nunca aparecen en la pantalla de desbloqueo ni en la de un elemento abierto, y el SDK de anuncios no tiene acceso al contenido de la bóveda.</li></ul>
+  <h3>5. Permisos</h3><p>Internet (anuncios y compras en Google Play; la bóveda nunca se envía) y biometría (opcional, para desbloquear con huella o rostro). La copia de seguridad usa el selector de archivos del sistema, sin permiso de almacenamiento. PassFort no usa ubicación, cámara, micrófono, contactos ni un servicio de autocompletado.</p>
+  <h3>6. Menores</h3><p>La app no está dirigida a menores de 13 años y no recopila intencionalmente datos de menores.</p>
+  <h3>7. Tus derechos</h3><p>Como los datos que registras quedan en tu dispositivo, tienes control total sobre ellos (ver, corregir, exportar y borrar dentro de la app). Para dudas sobre tus derechos según el RGPD, la LGPD u otras leyes, o sobre los datos de anuncios, escribe al correo de abajo.</p>
+  <h3>8. Cambios</h3><p>Si esta política cambia, la nueva versión se publicará en esta página con su fecha de actualización.</p>
+  <h3>9. Contacto</h3><p>Correo: <a href="mailto:josephsantiago250@gmail.com">josephsantiago250@gmail.com</a></p>
+</section>
+</main>
+<footer>&copy; 2026 Joseph Santiago</footer>
+</body>
+</html>
